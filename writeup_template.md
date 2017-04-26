@@ -59,7 +59,7 @@ The model includes RELU layers to introduce nonlinearity, and the data is normal
 
 The model contains dropout layers in order to reduce overfitting (model.py lines 38). 
 
-The model was trained and validated on different data sets to ensure that the model was not overfitting (cell 5 in the model.ipynb). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
+The model was trained and validated on different data sets to ensure that the model was not overfitting (cell 5 in the model.py). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
 ####3. Model parameter tuning
 
@@ -89,7 +89,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 ####2. Final Model Architecture
 
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes :
+The final model architecture (model.py: function nvidia_model()) consisted of a convolution neural network with the following layers and layer sizes :
 
 
 | Layer         		|     Description	        					| 
