@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [image2]: ./examples/recovery1.jpg "Recovery Image"
 [image3]: ./examples/recovery2.jpg "Recovery Image"
 [image4]: ./examples/placeholder_small.jpg "Recovery Image"
-[image5]: ./examples/cropped.jpg "Cropped Image"
+[image5]: ./examples/cropped.png "Cropped Image"
 [image6]: ./examples/original.png "Original Camera Image"
 [image7]: ./examples/flipped.png "Flipped Image"
 
@@ -113,10 +113,10 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 ![alt text][image1]
 
-Then I did another lap with recovery data so that the model can tune to receover itself if it is about to hit lane boundaries or curbs.
+Then I did another lap with recovery data so that the model can tune to receover itself if it is about to hit lane boundaries or curbs. The images below show recorded recovery data.
+
 ![alt text][image2]
 
-And trying to recover:
 ![alt text][image3]
 
 STEPS:
